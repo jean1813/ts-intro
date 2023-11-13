@@ -8,8 +8,7 @@ let valorMorangoPagar:number
 let valorMacaPagar:number
 let valorFinal:number
 
-// Precifica o morango de ac
-ordo a quantidade
+// Precifica o morango de acordo a quantidade
 
 if (qtdMorango <= 5) {
     valorMorangoPagar = qtdMorango * 2.5
