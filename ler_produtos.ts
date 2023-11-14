@@ -6,7 +6,7 @@ const input = prompt()
 let codigoProduto: number [] = []
 let precoProduto: number [] = []
 let maiorValor: number = 0
-
+let mediaPreco: number = 0
 let cont: number = 0
 
 while (cont <= 15) {
@@ -20,6 +20,8 @@ for (let index = 0; index < precoProduto.length; index++) {
         maiorValor = precoProduto[index]
     
 }
-
+   mediaPreco =(mediaPreco + precoProduto[0]) / precoProduto.length
 }
 
+console.log(`O maior valor de produto é R$ ${maiorValor.toFixed(2)}`)
+console.log(`A media dos valores é R$ ${mediaPreco.toFixed(2)}`)
