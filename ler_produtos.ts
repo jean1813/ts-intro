@@ -7,6 +7,7 @@ let codigoProduto: number [] = []
 let precoProduto: number [] = []
 let maiorValor: number = 0
 let mediaPreco: number = 0
+
 let cont: number = 0
 
 while (cont <= 15) {
